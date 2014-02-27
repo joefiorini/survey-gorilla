@@ -1,0 +1,9 @@
+{{link-to "New Survey" "surveys.new"}}
+
+<h2>Surveys Index</h2>
+
+<ul>
+{{#each controller}}
+<li>{{link-to name "surveys.show" this}}</li>
+{{/each}}
+</ul>
